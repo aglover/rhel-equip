@@ -5,6 +5,8 @@
 #  Redis Equip
 # Licence: MIT
 
+# docs
+#  http://www.jeremykline.us/?p=209
 
 yum install gcc-c++ make apr-devel apr-util-devel -y
 yum install zlib libxml2-devel -y
