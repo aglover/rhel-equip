@@ -31,3 +31,6 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
      * you will need to have Java installed (see Java 1.6 setup above)
      * you get latest version of elasticsearch and it's installed as a service
      * to start it: `rcelasticsearch start` and to stop: `rcelasticsearch stop`
+  * Redis setup
+     * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_redis.sh && bash equip_redis.sh`
+     * you get latest stable version of Redis installed as a service
