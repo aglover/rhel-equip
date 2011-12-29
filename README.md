@@ -12,6 +12,7 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
      * you get Ruby 1.9.2 latest patch level and Bundler
   * Passenger (RHEL already has Apache 2)
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_passenger.sh && bash equip_passenger.sh`
+     * follow instructions from passenger installer
   * MongoDB
 	 * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_mongodb.sh && bash equip_mongodb.sh`
 	 * you get latest version of MongoDB

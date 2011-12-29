@@ -22,6 +22,9 @@
 # 
 # The default document root is /var/www/html/
 
+# docs:
+#  http://mondotech.blogspot.com/2011/10/install-ruby-on-rails-on-rhel-6-with.html
+
 yum install gcc-c++ -y
 yum install curl-devel -y
 yum install zlib-devel -y
