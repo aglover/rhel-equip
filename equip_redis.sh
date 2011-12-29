@@ -24,7 +24,11 @@ sudo make install
 
 mkdir /var/lib/redis /etc/redis
 wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/redis.conf
-mv redis.conf /etc/redis.conf
+mv redis.conf /etc/redis/redis.conf
 
 
 wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/etc/redis-server
+chmod u+x redis-server
+mv redis-server /etc/init.d/redis-server
+
+chkconfig --add redis-server
