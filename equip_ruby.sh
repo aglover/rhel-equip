@@ -5,8 +5,9 @@
 #  Ruby Equip
 # Licence: MIT
 
+yum install gcc-c++ make curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel -y
 yum install readline-devel -y
-yum install gcc zlib libxml2-devel -y
+yum install zlib libxml2-devel -y
 yum install gcc -y
 yum install zlib -y
 yum install zlib-devel -y
@@ -31,3 +32,5 @@ ruby setup.rb
 cd ..
 gem install bundler 
 rm -f rubygems-1.8.12.tar
+
+gem update --system
