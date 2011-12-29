@@ -6,12 +6,12 @@
 #  http://www.modrails.com/install.html
 # Licence: MIT
 
-yum install gcc-c++
-yum install curl-devel
-yum install zlib-devel
-yum install httpd-devel
-yum install apr-devel
-yum install apr-util-devel
+yum install gcc-c++ -y
+yum install curl-devel -y
+yum install zlib-devel -y
+yum install httpd-devel -y
+yum install apr-devel -y
+yum install apr-util-devel -y
 
 gem install passenger
 passenger-install-apache2-module
