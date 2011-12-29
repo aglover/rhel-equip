@@ -25,4 +25,9 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_android.sh && bash equip_android.sh`
      * you should have Java and Ant already installed		
      * you get all versions of SDK
-       * this'll take a long long time
+       * this'll take a long long time and will take up about 3GB of space
+  * elasticsearch setup
+     * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_elasticsearch.sh && bash equip_elasticsearch.sh`
+     * you will need to have Java installed (see Java 1.6 setup above)
+     * you get latest version of elasticsearch and it's installed as a service
+     * to start it: `rcelasticsearch start` and to stop: `rcelasticsearch stop`
