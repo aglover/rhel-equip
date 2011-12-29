@@ -21,3 +21,8 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
 	 * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_java.sh && bash equip_java.sh`
 	 * you'll need to manually accept Sun's license agreement
 	 * you get Sun's Java 6 JDK and Apache Ant	
+  * Android setup
+     * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_android.sh && bash equip_android.sh`
+     * you should have Java and Ant already installed		
+     * you get all versions of SDK
+       * this'll take a long long time
