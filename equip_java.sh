@@ -17,3 +17,4 @@ sh jdk-6u25-linux-i586-rpm.bin
 # when this is done...
 
 /usr/sbin/alternatives --install /usr/bin/java java /usr/java/default/bin/java 20000
+yum install ant.i686 -y
