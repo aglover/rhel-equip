@@ -9,7 +9,7 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
 ###To install:
   * Ruby 1.9.2
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_ruby.sh && bash equip_ruby.sh`
-     * you get Ruby 1.9.2 latest patch level, RubyGems, and Bundler
+     * you get Ruby 1.9.2 latest patch level, RubyGems, Bundler, and Git
   * Passenger (RHEL already has Apache 2)
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_passenger.sh && bash equip_passenger.sh`
      * follow instructions from passenger installer

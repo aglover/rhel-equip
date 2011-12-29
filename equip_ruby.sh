@@ -33,7 +33,9 @@ tar xvf rubygems-1.8.12.tar
 cd rubygems-1.8.12
 ruby setup.rb
 cd ..
+
+gem update --system
 gem install bundler 
 rm -f rubygems-1.8.12.tar
 
-gem update --system
+yum install git-core -y
