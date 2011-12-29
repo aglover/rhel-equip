@@ -9,7 +9,7 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
 ###To install:
   * Ruby 1.9.2
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_ruby.sh && bash equip_ruby.sh`
-     * you get Ruby 1.9.2 latest patch level and Bundler
+     * you get Ruby 1.9.2 latest patch level, RubyGems, and Bundler
   * Passenger (RHEL already has Apache 2)
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_passenger.sh && bash equip_passenger.sh`
      * follow instructions from passenger installer
@@ -20,8 +20,8 @@ These days I use [RHEL's ami-3ddb1954 AMI](http://aws.amazon.com/amis/9559587540
   * Java 1.6 setup
 	 * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_java.sh && bash equip_java.sh`
 	 * you'll need to manually accept Sun's license agreement
-	 * you get Sun's Java 6 JDK and Apache Ant	
-  * Android setup
+	 * you get Sun's Java 6 JDK, JRE, and Apache Ant	
+  * Android SDK setup
      * `wget --no-check-certificate https://raw.github.com/aglover/rhel-equip/master/equip_android.sh && bash equip_android.sh`
      * you should have Java and Ant already installed		
      * you get all versions of SDK
