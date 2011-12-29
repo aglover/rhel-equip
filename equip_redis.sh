@@ -34,7 +34,7 @@ chmod u+x redis-server
 mv redis-server /etc/init.d/redis-server
 
 chkconfig --add redis-server
-chkconfig redis-server on
+chkconfig --levels 235 redis-server on
 
 mkdir /var/log/redis
 touch /var/log/redis/redis.log
