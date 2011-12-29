@@ -18,3 +18,8 @@ sh jdk-6u25-linux-i586-rpm.bin
 
 /usr/sbin/alternatives --install /usr/bin/java java /usr/java/default/bin/java 20000
 yum install ant.i686 -y
+
+# the java process leaves quite a few rpms around
+rm -f sun-*.rpm
+rm -f jdk-*.rpm
+rm jdk-6u25-linux-i586-rpm.bin

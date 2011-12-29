@@ -5,6 +5,9 @@
 #  Ruby Equip
 # Licence: MIT
 
+# http://www.dejaaugustine.com/2011/10/setting-up-gitlabhq-on-rhel5/
+# http://www.redhat.com/magazine/025nov06/features/ruby/
+
 yum install gcc-c++ make curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel -y
 yum install readline-devel -y
 yum install zlib libxml2-devel -y
