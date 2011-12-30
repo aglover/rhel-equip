@@ -8,7 +8,10 @@
 # http://www.dejaaugustine.com/2011/10/setting-up-gitlabhq-on-rhel5/
 # http://www.redhat.com/magazine/025nov06/features/ruby/
 
+yum update -y
+
 yum install gcc-c++ make curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel -y
+yum install -y ruby-devel libxml2 libxml2-devel libxslt libxslt-devel
 yum install readline-devel -y
 yum install zlib libxml2-devel -y
 yum install gcc -y

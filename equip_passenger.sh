@@ -22,6 +22,11 @@
 # 
 # The default document root is /var/www/html/
 
+# By default, port 80 isn't open on iptables so add this line to /etc/sysconfig/iptables
+# -A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+# then restart things: 
+# $> /etc/init.d/iptables restart
+
 # docs:
 #  http://mondotech.blogspot.com/2011/10/install-ruby-on-rails-on-rhel-6-with.html
 
