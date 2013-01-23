@@ -13,7 +13,7 @@ yum update -y
 wget http://www.imagemagick.org/download/ImageMagick.tar.gz
 
 tar xvfz ImageMagick.tar.gz
-cd ImageMagick-6.7.4-2/
+cd ImageMagick-6.8.1-10/
 ./configure
 make
 make install
