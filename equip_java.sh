@@ -10,7 +10,7 @@
 #  http://www.if-not-true-then-false.com/2010/install-sun-oracle-java-jdk-jre-7-on-fedora-centos-red-hat-rhel/
 #  http://www.java.com/en/download/help/linux_install.xml
 
-wget http://javadl.sun.com/webapps/download/AutoDL?BundleId=73133
+wget https://edelivery.oracle.com/otn-pub/java/jdk/6u25-b06/jdk-6u25-linux-i586-rpm.bin
 chmod +x jdk-6u25-linux-i586-rpm.bin
 sh jdk-6u25-linux-i586-rpm.bin
 
