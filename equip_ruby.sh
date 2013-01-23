@@ -11,7 +11,7 @@
 yum update -y
 
 yum install gcc-c++ make curl-devel httpd-devel apr-devel apr-util-devel sqlite-devel -y
-yum install -y ruby-devel libxml2 libxml2-devel libxslt libxslt-devel
+yum install ruby-devel libxml2 libxml2-devel libxslt libxslt-devel -y 
 yum install readline-devel -y
 yum install zlib libxml2-devel -y
 yum install gcc -y
@@ -19,6 +19,7 @@ yum install zlib -y
 yum install zlib-devel -y
 yum install openssl -y
 yum install openssl-devel -y
+yum install libyaml -y
 
 wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
 tar xzf ruby-1.9.2-p180.tar.gz
